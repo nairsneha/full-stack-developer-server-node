@@ -2,10 +2,31 @@ import posts from "./tuits/tuits.js";
 let tuits = posts;
 
 const createTuit = (req, res) => {
-    const newTuit = req.body;
+
+    console.log(req.body);
+    const newTuit = {
+        "_id": "3",
+        "name": "Sneha Nair",
+        "userName": "snehanair",
+        "time": "just now",
+        "imageIcon": "https://www.statuspik.com/wp-content/uploads/2020/12/Beautiful-anime-profile-pics.jpg",
+        "image": "",
+        "title": "",
+        "video": "",
+        "imageCaption" : "",
+        "postInfo": "",
+        "postLink" : "netflix.com",
+        "postComments" : 0,
+        "postRetuits" : 0,
+        "postLikes": 0,
+        "postDislikes" :0,
+        "verified" : true,
+        "liked" : false,
+        "disliked":false
+    };
     newTuit._id = (new Date()).getTime()+'';
-    newTuit.likes = 0;
-    tuits.push(newTuit);
+    newTuit.title = req.body.tuit;
+    tuits=[newTuit].concat(tuits)
     res.json(newTuit);
 }
 
