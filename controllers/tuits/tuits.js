@@ -27,18 +27,19 @@ export default [ {
     "postComments" : 3,
     "postRetuits" : 3,
     "postLikes": 7,
+    "postDislikes": 6,
     "verified" : true,
     "liked" : true
 
 },
     {
         "_id": "3",
-        "name": "Grimes",
+        "name": "Grimes Grimes",
         "userName": "grimes",
         "time": "2h",
         "imageIcon": "https://cdn-images-1.medium.com/max/1200/1*QUlYX1snC5csKT-E6Bmxvw.jpeg",
         "image": "https://nypost.com/wp-content/uploads/sites/2/2021/10/grimes-05.jpg?quality=90&strip=all",
-        "title": "Grimes seen reading Karl Marx ollowing split with world's richest man Elon Musk <a href='www.wikipedia.com'>trib.al</a>",
+        "title": "Grimes seen reading Karl Marx following split with world's richest man Elon Musk <a href='www.wikipedia.com'>trib.al</a>",
         "video": "",
         "imageCaption" : "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
         "postInfo": "From training to launch to landing, reading my husband's book lol",
@@ -46,12 +47,13 @@ export default [ {
         "postComments" : 7,
         "postRetuits" : 9,
         "postLikes": 5,
+        "postDislikes": 6,
         "verified" : true,
         "liked" : false
     },
     {
         "_id": "4",
-        "name": "Angela Kinsey",
+        "name": "Angela Kinseyyyy",
         "userName": "voodoomamajuju",
         "time": "2h",
         "image": "https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Campaign/landingpages/library/theoffice/mainpage/office-social-min.png/_jcr_content/renditions/original",
@@ -64,6 +66,7 @@ export default [ {
         "postComments" : 3,
         "postRetuits" : 3,
         "postLikes": 7,
+        "postDislikes": 6,
         "verified" : true,
         "liked" : true
 
