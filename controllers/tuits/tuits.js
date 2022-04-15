@@ -1,18 +1,3 @@
-/*export default [
-    {
-        "_id": "123",
-        "userName": {"username": "NASA"},
-        "tuit": "In 2021, our @NASAPersevere Mars rover landed",
-        "likes": 345
-    },
-    {
-        "_id": "234",
-        "userName": { "username": "NASA" },
-        "tuit": "Ingenuity helicopter takes flight.",
-        "likes": 346785
-    }
-];*/
-
 export default [ {
     "_id": "1",
     "name": "Elon Musk",
